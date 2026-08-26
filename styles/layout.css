@@ -60,81 +60,81 @@
 }
 
 .slidev-layout.cover {
-    font-family: var(--font-zengothic), sans-serif;
+  font-family: var(--font-zengothic), sans-serif;
+  padding: 0;
+  h1 {
+    position: absolute;
+    top: 330px;
+    left: 60px;
+
+    margin: 0;
     padding: 0;
-    h1 {
-        position: absolute;
-        top: 330px;
-        left: 60px;
 
-        margin: 0;
-        padding: 0;
+    font-weight: 700;
+    font-size: 36px;
+    color: var(--color-black);
+  }
+  p {
+    position: absolute;
+    top: 420px;
+    left: 60px;
 
-        font-weight: 700;
-        font-size: 36px;
-        color: var(--color-black);
-    }
-    p {
-        position: absolute;
-        top: 420px;
-        left: 60px;
-
-        font-weight: 900;
-        font-size: 24px;
-        color: var(--color-purple);
-        line-height: 1.5;
-    }
+    font-weight: 900;
+    font-size: 24px;
+    color: var(--color-purple);
+    line-height: 1.5;
+  }
 }
 
 .slidev-layout.cover-dev {
-    font-family: var(--font-zengothic), sans-serif;
-    h1 {
-        position: absolute;
-        top: 120px;
-        left: 80px;
-        width: 600px;
+  font-family: var(--font-zengothic), sans-serif;
+  h1 {
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    width: 600px;
 
-        margin: 0;
-        padding: 0;
+    margin: 0;
+    padding: 0;
 
-        font-weight: 700;
-        font-size: 72px;
-        color: var(--color-purple);
-        line-height: 1.2;
-    }
-    p {
-        position: absolute;
-        top: 360px;
-        left: 80px;
+    font-weight: 700;
+    font-size: 72px;
+    color: var(--color-purple);
+    line-height: 1.2;
+  }
+  p {
+    position: absolute;
+    top: 360px;
+    left: 80px;
 
-        font-weight: 900;
-        font-size: 28px;
-        color: var(--color-purple);
-        line-height: 1.8;
-    }
+    font-weight: 900;
+    font-size: 28px;
+    color: var(--color-purple);
+    line-height: 1.8;
+  }
 }
 
 .slidev-layout.cover-biz {
-    h1 {
-        position: absolute;
-        top: 360px;
-        left: 480px;
+  h1 {
+    position: absolute;
+    top: 360px;
+    left: 480px;
 
-        font-family: var(--font-rounded);
-        font-weight: 900;
-        font-size: 48px;
-        color: var(--color-orange);
-        line-height: 1.2;
-    }
-    p {
-        position: absolute;
-        top: 470px;
-        left: 480px;
+    font-family: var(--font-rounded);
+    font-weight: 900;
+    font-size: 48px;
+    color: var(--color-orange);
+    line-height: 1.2;
+  }
+  p {
+    position: absolute;
+    top: 470px;
+    left: 480px;
 
-        font-family: var(--font-zengothic);
-        font-weight: 900;
-        font-size: 28px;
-        color: var(--color-purple);
-        line-height: 1.8;
-    }
+    font-family: var(--font-zengothic);
+    font-weight: 900;
+    font-size: 28px;
+    color: var(--color-purple);
+    line-height: 1.8;
+  }
 }
