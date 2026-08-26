@@ -138,3 +138,49 @@
     line-height: 1.8;
   }
 }
+
+.slidev-layout.toc {
+
+  font-family: var(--font-zengothic);
+  font-weight: 700;
+  color: var(--color-purple);
+
+  .main-content {
+    left: 75px;
+    top: 130px;
+    height: calc(100% - 120px - 20px);
+    width: calc(100% - 150px);
+  }
+
+  ol {
+    list-style: none;
+    counter-reset: item;
+    padding: 0;
+  }
+
+  ol li {
+    counter-increment: item;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 0 0 8px 0;
+    padding: 0;
+
+    font-size: 32px;
+  }
+
+  ol li::before {
+    content: counter(item, decimal-leading-zero);
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 36px;
+    transform: translateY(2px);
+    padding: 0 16px 4px 0;
+
+    border-right: 3px solid var(--color-purple);
+    font-weight: 900;
+  }
+}

@@ -31,13 +31,14 @@ layout: cover-biz
 layout: toc
 ---
 
-TOC page
 
-- content 1
-- content 2
-- content 3
-- content 4
-- content 5
+<!-- 先頭の番号に関係なく連番になります。 -->
+1. テキスト
+1. テキスト
+1. テキスト
+1. テキスト
+1. テキスト
+1. テキスト
 
 ---
 layout: section
