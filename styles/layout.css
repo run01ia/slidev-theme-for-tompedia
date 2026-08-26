@@ -184,3 +184,29 @@
     font-weight: 900;
   }
 }
+
+.slidev-layout.section {
+  font-family: var(--font-zengothic);
+  
+  h1 {
+    position: absolute;
+    top: 130px;
+    left: 110px;
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    font-size: 120px;
+    color: var(--color-white);
+  }
+
+  p {
+    position: absolute;
+    top: 250px;
+    left: 110px;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--color-white);
+  }
+}

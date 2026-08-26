@@ -46,10 +46,7 @@ layout: section
 
 # 01
 
-## Section Name
-
-～このセクションを極めよう～
-
+Section Name
 
 ---
 layout: content
