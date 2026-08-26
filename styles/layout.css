@@ -1,7 +1,24 @@
+/* "M PLUS Rounded 1c" */
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&display=swap');
+
+/* "Zen Kaku Gothic New" */
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap');
+
+
 :root {
-  /* default theme color */
-  /* can be overrided by uses `themeConfig` option */
-  --slidev-theme-primary: #5d8392;
+  /* color pallet */
+  --color-purple: #825dab;
+  --color-lightpurple: #eddeff;
+  --color-brown: #44a803;
+  --color-green: #573131;
+  --color-orange: #ed810d;
+  --color-white: #fefefe;
+  --color-black: #242323;
+
+  /* theme fonts */
+  --font-rounded: "M PLUS Rounded 1c";
+  --font-zengothic: "Zen Kaku Gothic New";
+
 }
 
 .slidev-layout.cover,
