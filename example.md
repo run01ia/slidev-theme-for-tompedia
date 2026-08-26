@@ -12,7 +12,7 @@ layout: cover
 layout: cover-dev
 ---
 
-# How to&emsp;&emsp;&emsp;○○○
+# How to<br>○○○
 <!-- # Git完全攻略への道 -->
 
 とんペディア\_ラボ 開発部  
@@ -22,9 +22,8 @@ layout: cover-dev
 layout: cover-biz
 ---
 
-# スライドタイトル
+# 営業部<br>スライドタイトル
 
-営業部
 名前
 
 
