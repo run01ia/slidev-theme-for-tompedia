@@ -12,9 +12,10 @@ layout: cover
 layout: cover-dev
 ---
 
-# スライドタイトル
+# How to&emsp;&emsp;&emsp;○○○
+<!-- # Git完全攻略への道 -->
 
-とんペディア\_ラボ開発部  
+とんペディア\_ラボ 開発部  
 名前
 
 ---

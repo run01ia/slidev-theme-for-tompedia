@@ -86,3 +86,31 @@
         line-height: 1.5;
     }
 }
+
+.slidev-layout.cover-dev {
+    font-family: var(--font-zengothic), sans-serif;
+    h1 {
+        position: absolute;
+        top: 120px;
+        left: 80px;
+        width: 600px;
+
+        margin: 0;
+        padding: 0;
+
+        font-weight: 700;
+        font-size: 72px;
+        color: var(--color-purple);
+        line-height: 1.2;
+    }
+    p {
+        position: absolute;
+        top: 360px;
+        left: 80px;
+
+        font-weight: 900;
+        font-size: 28px;
+        color: var(--color-purple);
+        line-height: 1.8;
+    }
+}
